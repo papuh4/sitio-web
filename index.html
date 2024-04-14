@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoGames</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    
+    <header class="fondo">
+        <nav>
+            <ul class="menu">
+                <li><a href="#sec-1">Valorant</a></li>
+                <li><a href="#sec-2">Fortnite</a></li>
+                <li><a href="#sec-3">Csgo 2</a></li>
+                <li><a href="#fot">Contacto</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+
+    <header class="fondo">
+
+        <div class="texto-fondo">
+        <h1 class="texto-50">Bienvenido</h1>
+        <p class="texto-20">En esta pagina encontraras los mejores Shotter's de la actualidad</p>
+        </div>
+
+    </header>
+
+    <main>
+        <section id="sec-1" class="galeria">
+            <h2 class="text-center">Valorant</h2>
+            <article>
+                <p>Valorant es un hero shooter primera persona multijugador gratuito desarrollado y publicado por Riot Games.
+                    El juego se anunció por primera vez con el nombre en clave Project A en octubre de 2019.</p>
+                    <img src="valo.jpg" class="imagen-juego" width="270" height="150">
+                    <img src="valo2.jpg" class="imagen-juego" height="150">
+                    <img src="valo3.png" class="imagen-juego" width="250" height="150">
+                    <img src="valo4.jpg" class="imagen-juego" height="150">
+                    <img src="valo5.jpg" class="imagen-juego" width="275" height="150">
+                    
+                    <div style="text-align: center;">
+                        <a href="https://playvalorant.com/es-es/" target="_blank" class="boton-descarga">Descargar Valorant</a>
+                    </div>
+                    
+
+            </article>
+        </section>
+
+        <section id="sec-2" class="galeria">
+            <h2 class="text-center">Fortnite</h2>
+            <article>
+                <p>Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic Games lanzado como diferentes paquetes de software que presentan seis diferentes modos de juego,
+                pero que comparten el mismo motor de juego y mecánicas.</p>
+                <img src="fortnite.jpg" class="imagen-juego" height="150">
+                <img src="fortnite2.jpeg" class="imagen-juego" height="150">
+                <img src="fortnite3.jpg" class="imagen-juego" height="150">
+                <img src="fortnite4.jpg" class="imagen-juego" height="150">
+                <img src="fornite5.jpg" class="imagen-juego" height="150">
+
+                <div style="text-align: center;">
+                    <a href="https://store.epicgames.com/es-ES/p/fortnite" target="_blank" class="boton-descarga">Descargar Fortnite</a>
+                </div>
+                
+
+
+            </article>
+        </section>
+
+        <section id="sec-3" class="galeria">
+            <h2 class="text-center">Counter Strike 2</h2>
+            <article>
+                <p>Counter-Strike 2 es un videojuego de disparos táctico en
+                primera persona multijugador de 2023 desarrollado y publicado por Valve.</p>
+                <img src="cs22.jpg" class="imagen-juego" width="270" height="150">
+                <img src="cs2.jpg" class="imagen-juego" height="150">
+                <img src="cs3.jpg" class="imagen-juego" width="250" height="150">
+                <img src="cs4.png" class="imagen-juego" height="150">
+                <img src="cs5.jpg" class="imagen-juego" width="275" height="150">
+
+                <div style="text-align: center;">
+                    <a href="https://www.counter-strike.net/cs2" target="_blank" class="boton-descarga">Descargar Counter Strike 2</a>
+                </div>
+                
+
+            </article>
+        </section>
+        
+    </main>
+
+    <footer class="footer" id="fot">
+        <section id="formulario-contacto">
+            <h2>Contacto</h2>
+            <style>
+                form {
+                    max-width: 400px;
+                    margin: 0 auto;
+                    padding: 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 8px;
+                    background-color: #444242;
+                }
+            
+                label {
+                    display: block;
+                    margin-bottom: 5px;
+                    font-weight: bold;
+                }
+            
+                input[type="text"],
+                input[type="email"],
+                textarea {
+                    width: 100%;
+                    padding: 8px;
+                    margin-bottom: 15px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    box-sizing: border-box;
+                }
+            
+                textarea {
+                    height: 100px;
+                    resize: vertical;
+                }
+            
+                button[type="submit"] {
+                    background-color: #009a1a;
+                    color: black;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                }
+            
+                button[type="submit"]:hover {
+                    background-color: coral;
+                }
+            </style>
+            
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" name="asunto">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+             
+        </section>
+        
+        <section>
+            <h2>Datos Personales</h2>
+            <div>
+                <i class="bi bi-person-circle"></i>
+                <p>Sergio Estanis Ibacache Parra</p>
+            </div>
+            <div>
+                <i class="bi bi-envelope-at"></i>
+                <p>sergio.ibacache@inacapmail.cl</p>
+            </div>
+        </section>
+        
+    </footer>
+</body>
+</html>
